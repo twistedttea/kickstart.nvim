@@ -1,8 +1,6 @@
--- [[ Configure Harpoon ]]
-
 return {
-	    {
-	    "theprimagen/harpoon",
+	    
+	    "ThePrimeagen/harpoon",
 	    branch = "harpoon2",
 	    dependencies = { "nvim-lua/plenary.nvim" },
 	    config = function()
@@ -16,13 +14,6 @@ return {
       { "<leader>3", function() require("harpoon"):list():select(3) end, desc = "harpoon to file 3", },
       { "<leader>4", function() require("harpoon"):list():select(4) end, desc = "harpoon to file 4", },
       { "<leader>5", function() require("harpoon"):list():select(5) end, desc = "harpoon to file 5", },
-    },
-	    },
-	    {
-	    "mbbill/undotree",
-	    },
-	    {
-	    "tpope/vim-fugitive",
-	},
 
+	    }
 }
