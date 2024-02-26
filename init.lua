@@ -203,7 +203,12 @@ require('lazy').setup({
   { "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000,
-    lazy = false
+    lazy = false,
+    config = function()
+      require('catppuccin').setup {
+        transparent_background = true
+      }
+    end,
   },
   {
     -- Theme inspired by Atom
