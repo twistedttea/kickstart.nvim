@@ -274,9 +274,9 @@ vim.wo.number = true
 vim.o.mouse = ''
 
 --Change colorscheme
-vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
+--vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+--vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+--vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
